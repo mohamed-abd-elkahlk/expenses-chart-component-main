@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <div class="head">
+        <div class="contanir">
+          <div class="title">
+            <div class="left">
+              <small>My balance</small>
+              <h3>$921.48</h3>
+            </div>
+            <img src="images/logo.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="text-contect">
+        <div class="contanir">
+          <div class="head-text">
+            <h2>Spending - Last 7 days</h2>
+          </div>
+          <div class="center">
+            <ul id="mon" class="clicked">
+              <li>mon</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="tue" class="clicked">
+              <li>tue</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="wed" class="clicked">
+              <li>wed</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="thu" class="clicked">
+              <li>thu</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="fri" class="clicked">
+              <li>fri</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="sat" class="clicked">
+              <li>sat</li>
+              <div class="data"></div>
+            </ul>
+            <ul id="sun" class="clicked">
+              <li>sun</li>
+              <div class="data"></div>
+            </ul>
+          </div>
+          <hr>
+          <div class="foot">
+            <div class="left-content">
+              <small> Total this month</small>
+              <h1>$478.33</h1>
+            </div>
+            <div class="right-content">
+              <small>+2.4%</small>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
